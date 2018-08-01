@@ -27,7 +27,7 @@ func Swap(num []int,i int,j int)  {
 }
 
 func main()  {
-	var numArray = []int{2,4,1,8,6}
+	var numArray = []int{2,3,43,1,12}
 	var result =  bubble(numArray)
 	for i:= len(result) -1 ; i >= 0 ; i--{
 		fmt.Println(result[i])
